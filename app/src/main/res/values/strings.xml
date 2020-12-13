@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Final_project</string>
+    <string name="welcome">Welcome To Our Book Shop</string>
+    <string name="home">Home</string>
+    <string name="show_book">Books</string>
+    <string name="purches">Purches</string>
+    <string name="contuct">Contuct Us</string>
+    <string name="search">Search</string>
+    <string name="Categories">Book Categories</string>
+    <string name="Eng_book">Engineering Book</string>
+    <string name="Kids_book">Kids Book</string>
+    <string name="Literature_book">Literature Book</string>
+    <string name="Job_book">Job book</string>
+    <string name="hint">Enter the book name here</string>
+    <string name="add_eng_book"> Add Engineering book</string>
+    <string name="add_kids_book"> Add kids book</string>
+    <string name="add_job_book"> Add job book</string>
+    <string name="add_liteturature_book"> Add liteturature book</string>
+    <string name="all_book"> Show all book</string>
+    <string name="name"> Name :</string>
+    <string name="writer_name">Writer name:</string>
+    <string name="prize">Prize:</string>
+    <string name="add">Add</string>
+</resources>
