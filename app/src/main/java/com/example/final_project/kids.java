@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class Kids extends AppCompatActivity implements View.OnClickListener {
+class Kids extends AppCompatActivity implements View.OnClickListener {
     private Button search,all_book,home,purches,contuct,books;
     Database database;
     private EditText name_editext;
