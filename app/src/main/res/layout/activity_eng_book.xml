@@ -1,9 +1,410 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
     tools:context=".Eng_book">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/homeid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/home"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/booksid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/show_book"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+
+            android:textStyle="bold"
+
+            />
+
+
+        <Button
+            android:id="@+id/purches_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/purches"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+
+            android:textStyle="bold"
+
+            />
+
+
+        <Button
+            android:id="@+id/contuct_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/contuct"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="636dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/search_nameid"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:hint="@string/hint"
+
+            />
+        <Button
+            android:id="@+id/search_bookid"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="20dp"
+            android:text="@string/search"/>
+
+        <Button
+            android:id="@+id/allbookid"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/all_book"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/teal_200"
+android:orientation="vertical"
+tools:context=".Eng_book">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+
+    <Button
+        android:id="@+id/homeid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/home"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/booksid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/show_book"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+
+        android:textStyle="bold"
+
+        />
+
+
+    <Button
+        android:id="@+id/purches_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/purches"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+
+        android:textStyle="bold"
+
+        />
+
+
+    <Button
+        android:id="@+id/contuct_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/contuct"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="636dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/search_nameid"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="@string/hint"
+
+        />
+    <Button
+        android:id="@+id/search_bookid"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:text="@string/search"/>
+
+    <Button
+        android:id="@+id/allbookid"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/all_book"
+        android:textSize="20dp"/>
+
+</LinearLayout>
+
+
+</LinearLayout><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/teal_200"
+android:orientation="vertical"
+tools:context=".Eng_book">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+
+    <Button
+        android:id="@+id/homeid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/home"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/booksid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/show_book"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+
+        android:textStyle="bold"
+
+        />
+
+
+    <Button
+        android:id="@+id/purches_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/purches"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+
+        android:textStyle="bold"
+
+        />
+
+
+    <Button
+        android:id="@+id/contuct_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/contuct"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="636dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/search_nameid"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="@string/hint"
+
+        />
+    <Button
+        android:id="@+id/search_bookid"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:text="@string/search"/>
+
+    <Button
+        android:id="@+id/allbookid"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/all_book"
+        android:textSize="20dp"/>
+
+</LinearLayout>
+
+
+</LinearLayout><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/teal_200"
+android:orientation="vertical"
+tools:context=".Eng_book">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+
+    <Button
+        android:id="@+id/homeid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/home"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/booksid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/show_book"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+
+        android:textStyle="bold"
+
+        />
+
+
+    <Button
+        android:id="@+id/purches_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/purches"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+
+        android:textStyle="bold"
+
+        />
+
+
+    <Button
+        android:id="@+id/contuct_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/contuct"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="636dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/search_nameid"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="@string/hint"
+
+        />
+    <Button
+        android:id="@+id/search_bookid"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:text="@string/search"/>
+
+    <Button
+        android:id="@+id/allbookid"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/all_book"
+        android:textSize="20dp"/>
+
+</LinearLayout>
+
+
+</LinearLayout>
