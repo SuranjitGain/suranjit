@@ -29,13 +29,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        admin=findViewById(R.id.adminid);
-        admin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,addbook.class);
-                startActivity(intent);
-            }
-        });
+     admin=findViewById(R.id.adminid);
+     admin.setOnClickListener(new View.OnClickListener() {
+         @Override
+         public void onClick(View v) {
+             Intent intent=new Intent(MainActivity.this,addbook.class);
+             startActivity(intent);
+         }
+     });
     }
 }

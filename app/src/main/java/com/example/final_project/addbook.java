@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-class addbook extends AppCompatActivity implements View.OnClickListener {
+public class addbook extends AppCompatActivity implements View.OnClickListener {
     Button add_eng,home,add_kids,add_job,literature;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout. activity_addbook);
+        setContentView(R.layout.activity_addbook);
 
         add_eng=(Button)findViewById(R.id.add_engid);
         home=(Button)findViewById(R.id.homeid);

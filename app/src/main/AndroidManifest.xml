@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Final_project">
-        <activity android:name=".liteture_book"></activity>
+        <activity android:name=".buy_literature_book"></activity>
+        <activity android:name=".buy_kids_book" />
+        <activity android:name=".buy_job_book" />
+        <activity android:name=".buy_eng_book" />
+        <activity android:name=".buy_book" />
+        <activity android:name=".add_literature_book" />
+        <activity android:name=".addbook" />
+        <activity android:name=".Kids" />
+        <activity android:name=".liteture_book" />
         <activity android:name=".kids" />
         <activity android:name=".job_book" />
         <activity android:name=".Eng_book" />

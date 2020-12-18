@@ -8,11 +8,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
-class literature_book extends AppCompatActivity implements OnClickListener {
+public class literature_book extends AppCompatActivity implements View.OnClickListener {
     private Button search,all_book,home,purches,contuct,books;
     Database database;
     private EditText name_editext;
@@ -111,4 +110,5 @@ class literature_book extends AppCompatActivity implements OnClickListener {
         builder.setCancelable(true);
         builder.show();
     }
+
 }

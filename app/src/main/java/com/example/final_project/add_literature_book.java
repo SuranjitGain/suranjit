@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-class add_literature_book extends AppCompatActivity implements View.OnClickListener {
+public class add_literature_book extends AppCompatActivity implements View.OnClickListener {
     Button add,home;
     private EditText name_editext,writer_editext,prize_editext;
     Database database;

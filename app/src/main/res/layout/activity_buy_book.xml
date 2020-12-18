@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_200"
-    android:orientation="vertical"
-    tools:context=".Eng_book">
+    android:orientation="vertical">
 
+
+    >
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -69,36 +67,52 @@
 
     </LinearLayout>
 
-
-    <LinearLayout
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="636dp"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:layout_height="wrap_content"
+        android:text="@string/Categories"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"/>
 
 
-        <EditText
-            android:id="@+id/search_nameid"
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:hint="@string/hint"
+    <Button
+        android:id="@+id/engid"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:text="@string/Eng_book"
+        android:textSize="40dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
 
-            />
-        <Button
-            android:id="@+id/search_bookid"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:textSize="20dp"
-            android:text="@string/search"/>
+        />
 
-        <Button
-            android:id="@+id/allbookid"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:text="@string/all_book"
-            android:textSize="20dp"/>
+    <Button
+        android:id="@+id/kidsid"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/Kids_book"
+        android:textSize="40dp"
+        android:layout_margin="20dp"
+        />
 
-    </LinearLayout>
+    <Button
+        android:id="@+id/jobid"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/Job_book"
+        android:textSize="40dp"
+        android:layout_margin="20dp"
+        />
 
 
+    <Button
+        android:id="@+id/literatureid"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/Literature_book"
+        android:textSize="40dp"
+        android:layout_margin="20dp"
+        />
 </LinearLayout>

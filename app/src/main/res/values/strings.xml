@@ -11,11 +11,11 @@
     <string name="Kids_book">Kids Book</string>
     <string name="Literature_book">Literature Book</string>
     <string name="Job_book">Job book</string>
-    <string name="hint">Enter the book name here</string>
+    <string name="hint">Enter the book name in lowercase</string>
     <string name="add_eng_book"> Add Engineering book</string>
     <string name="add_kids_book"> Add kids book</string>
     <string name="add_job_book"> Add job book</string>
-    <string name="add_liteturature_book"> Add liteturature book</string>
+    <string name="add_liteturature_book"> Add literature book</string>
     <string name="all_book"> Show all book</string>
     <string name="name"> Name :</string>
     <string name="writer_name">Writer name:</string>
