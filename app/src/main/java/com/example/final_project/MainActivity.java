@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     Database  database;
-    Button books,admin;
+    Button books,admin,purches,contuct;
     Button home;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,5 +37,21 @@ public class MainActivity extends AppCompatActivity {
              startActivity(intent);
          }
      });
+        purches=(Button)findViewById(R.id.purchesid);
+        purches.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,buy_book.class);
+                startActivity(intent);
+            }
+        });
+        contuct=(Button)findViewById(R.id.contuctid);
+        contuct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,contuct.class);
+                startActivity(intent);
+            }
+        });
     }
 }
