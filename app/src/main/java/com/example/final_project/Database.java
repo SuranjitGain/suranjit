@@ -183,5 +183,39 @@ public class Database extends SQLiteOpenHelper {
         Cursor cursor =sqLiteDatabase.rawQuery("SELECT * FROM Literature_book WHERE Name='"+name+"'",null);
         return cursor;
     }
+
+
+    public  Cursor buy_eng_book(Integer id)
+    {
+
+        SQLiteDatabase sqLiteDatabase = this.getReadableDatabase();
+        Cursor cursor =sqLiteDatabase.rawQuery("SELECT * FROM Engineering_book WHERE ID='"+id+"'",null);
+        return cursor;
+    }
+
+    public  Cursor buy_job_book(Integer id)
+    {
+
+        SQLiteDatabase sqLiteDatabase = this.getReadableDatabase();
+        Cursor cursor =sqLiteDatabase.rawQuery("SELECT * FROM job_book WHERE ID='"+id+"'",null);
+        return cursor;
+    }
+
+    public  Cursor buy_kids_book(Integer id)
+    {
+
+        SQLiteDatabase sqLiteDatabase = this.getReadableDatabase();
+        Cursor cursor =sqLiteDatabase.rawQuery("SELECT * FROM Kids_book WHERE ID='"+id+"'",null);
+        return cursor;
+    }
+
+    public  Cursor buy_literature_book(Integer id)
+    {
+
+        SQLiteDatabase sqLiteDatabase = this.getReadableDatabase();
+        Cursor cursor =sqLiteDatabase.rawQuery("SELECT * FROM Literature_book WHERE ID='"+id+"'",null);
+        return cursor;
+    }
+
 }
 
